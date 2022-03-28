@@ -22,6 +22,14 @@
     display: flex;
 }
 
+.wrapper {
+    flex-wrap: wrap;
+}
+
+.col-5 {
+    flex-basis: calc((100% / 12) * 5);
+}
+
 /* MOBILE XS */
 
 /* --- COLUMNS --- */
