@@ -5,8 +5,5 @@ body {
 .box {
     width: 100%;
     height: 50px;
-    margin: 0 auto;
-    background-color: plum;
-    margin-right: 100px;
-
+    background-color: aqua;
 }
