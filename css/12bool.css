@@ -1,0 +1,104 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+/* --- COLUMNS --- */
+
+/* MOBILE XS */
+@media all and (max-width: 2000px) {
+    .col-xs-1 {
+        flex-basis: calc((100% / 12) * 1);
+        max-width: calc((100% / 12) * 1);
+        height: 100%;
+    }
+
+    .col-xs-2 {
+        flex-basis: calc((100% / 12) * 2);
+        max-width: calc((100% / 12) * 2);
+        height: 100%;
+    }
+
+    .col-xs-3 {
+        flex-basis: calc((100% / 12) * 3);
+        max-width: calc((100% / 12) * 3);
+        height: 100%;
+    }
+
+    .col-xs-4 {
+        flex-basis: calc((100% / 12) * 4);
+        max-width: calc((100% / 12) * 4);
+        height: 100%;
+    }
+
+    .col-xs-5 {
+        flex-basis: calc((100% / 12) * 5);
+        max-width: calc((100% / 12) * 5);
+        height: 100%;
+    }
+    .col-xs-6 {
+        flex-basis: calc((100% / 12) * 6);
+        max-width: calc((100% / 12) * 6);
+        height: 100%;
+    }
+    .col-xs-7 {
+        flex-basis: calc((100% / 12) * 7);
+        max-width: calc((100% / 12) * 7);
+        height: 100%;
+    }
+    .col-xs-8 {
+        flex-basis: calc((100% / 12) * 8);
+        max-width: calc((100% / 12) * 8);
+        height: 100%;
+    }
+    .col-xs-9 {
+        flex-basis: calc((100% / 12) * 9);
+        max-width: calc((100% / 12) * 9);
+        height: 100%;
+    }
+    .col-xs-10 {
+        flex-basis: calc((100% / 12) * 10);
+        max-width: calc((100% / 12) * 10);
+        height: 100%;
+    }
+    .col-xs-11 {
+        flex-basis: calc((100% / 12) * 11);
+        max-width: calc((100% / 12) * 11);
+        height: 100%;
+    }
+    .col-xs-12 {
+        flex-basis: calc((100% / 12) * 12);
+        max-width: calc((100% / 12) * 12);
+        height: 100%;
+    }
+}
+
+/* MOBILE SM */
+@media all and (min-width: 576px) {
+    
+}
+
+/* TABLET MD */
+@media all and (min-width: 768px) {
+    
+}
+
+/* DESKTOP LG */
+@media all and (min-width: 992px) {
+    
+}
