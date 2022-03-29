@@ -36,7 +36,6 @@
 
 /* --- COLUMNS --- */
 
-@media all and (max-width: 2000px) {
     .col-xs-1 {
         flex-basis: calc((100% / 12) * 1);
         max-width: calc((100% / 12) * 1);
@@ -155,7 +154,7 @@
     .offset-xs-12 {
         margin-left: calc((100% / 12) * 12);
     }
-}
+
 
 /* MOBILE SM */
 @media all and (min-width: 576px) {
