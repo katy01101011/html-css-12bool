@@ -91,3 +91,19 @@ body {
         right: 3vw;
     }
 }
+
+/* Miao animation */
+
+#miao {
+    font-family: 'Courier New', Courier, monospace;
+    animation: miao 1.2s infinite;
+    font-size: 4vw;
+    z-index: 999;
+}
+
+@keyframes miao {
+    0% {
+        color: var(--turquoise);
+        font-size: 0;
+    }
+}
