@@ -78,3 +78,16 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+/* Tail animation */
+
+#tail {
+    animation: move-tail 1s linear infinite;
+}
+
+@keyframes move-tail {
+    0% {
+        position: relative;
+        right: 3vw;
+    }
+}
