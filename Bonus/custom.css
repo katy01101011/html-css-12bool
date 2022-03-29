@@ -1,0 +1,18 @@
+:root {
+    --turquoise: #22B9C2;
+    --lightgrat: #D4DCDF;
+    --darkgray: #5C6467;
+    --black: #181C1F;
+    --bordeaux: #8B2E26;
+    --red: #C7403A;
+    --salmon: #EF9789;
+    --pink: #ECC0D7;
+    --gold: #F0C610;
+
+
+
+}
+
+body {
+    background-color: var(--gold);
+}
